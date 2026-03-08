@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vmux
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1772909539
+!i10b 1
+!s100 7HILk?MmfC]>in=f9j7NV0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:87Z3_Dn76_XQ1M=Yb=SD1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/AgenteSimans/Desktop/lab1_OAC
+w1772909355
+8C:/Users/AgenteSimans/Desktop/lab1_OAC/mux.sv
+FC:/Users/AgenteSimans/Desktop/lab1_OAC/mux.sv
+!i122 2
+L0 1 12
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1772909539.000000
+!s107 C:/Users/AgenteSimans/Desktop/lab1_OAC/mux.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/AgenteSimans/Desktop/lab1_OAC/mux.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vtb_mux
+R0
+R1
+!i10b 1
+!s100 jE?^jOl58hbAP?;@hle]U0
+R2
+IT[g?A6KlhgjiNRm7]BRli2
+R3
+S1
+R4
+w1772909433
+8C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux.sv
+FC:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux.sv
+!i122 3
+L0 3 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux.sv|
+!i113 1
+R7
+R8

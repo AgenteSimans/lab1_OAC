@@ -1,0 +1,18 @@
+# Compile of mux.sv was successful.
+# Compile of mux.sv was successful.
+# Compile of tb_mux.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of tb_mux.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_mux
+# vsim -gui work.tb_mux 
+# Start time: 15:52:31 on Mar 07,2026
+# Loading sv_std.std
+# Loading work.tb_mux
+# Loading work.mux
+add wave -position insertpoint sim:/tb_mux/*
+add dataflow sim:/tb_mux/*
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/tb_mux/dut/*
+# End time: 15:55:47 on Mar 07,2026, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 7

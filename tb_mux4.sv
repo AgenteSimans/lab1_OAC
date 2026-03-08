@@ -12,4 +12,4 @@ module tb_mux(count, muxOut);
      #10 $stop;
    end
 
-endmodule: tb_mux
+endmodule;
