@@ -1,4 +1,4 @@
-module mux
+module mux4
   (
     output logic f,
     input  logic a, b, c, d

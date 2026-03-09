@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module tb_mux4(count, muxOut);
+module tb_mux4;
   logic [31:0] counta, countb, countc, countd;
   logic [1:0] sel;
   logic [31:0] muxOut;
@@ -18,21 +18,21 @@ module tb_mux4(count, muxOut);
      $monitor($time,"a = %b | b = %b | c = %b | d = %b | sel = %b | muxOut = %b", counta, countb, countc, countd, sel, muxOut);
       
       
-      counta = 32'b000000000000000000000000000000000000;
-      countb = 32'b111111111111111111111111111111110000;
-      countc = 32'b111111111111111111111111111100000000;
-      countd = 32'b111111111111111111111111110000000000;
+      counta = 32'b00000000000000000000000000000000;
+      countb = 32'b11111111100111111111111111111111;
+      countc = 32'b11111101111111111111111111110000;
+      countd = 32'b11111111111111111111111111000000;
 
       sel = 2'b00; #10;
       sel = 2'b01; #10;
       sel = 2'b10; #10;
       sel = 2'b11; #10;
 
-      countd = 32'b111111111111111111111111111111110000; #10;
+      countd = 32'b11111111111111111111111111111111; #10;
       
       sel = 2'b00; #10;
 
-      counta = 32'b111111111111111111111111111111110000; #10;
+      counta = 32'b11111111111111111111111111111111; #10;
       
      //for(count = 0; count != 4'b1111; count++) #10;     
      #10 $stop;

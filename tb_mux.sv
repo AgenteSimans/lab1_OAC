@@ -1,8 +1,8 @@
 `timescale 1ns/1ps
 
 module tb_mux(count, muxOut);
-   output logic [2:0] count;
-   output logic muxOut;
+    logic [2:0] count;
+    logic muxOut;
 
    mux dut(.f(muxOut), .a(count[2]), .b(count[1]), .sel(count[0]));
 
@@ -12,4 +12,4 @@ module tb_mux(count, muxOut);
      #10 $stop;
    end
 
-endmodule: tb_mux
+endmodule;
