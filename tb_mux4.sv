@@ -9,7 +9,7 @@ module tb_mux4;
 
   generate
     for(i=0; i<32; i++) begin
-      mux dut(.f(muxOut[i]), .a(counta[i]), .b(countb[i]), .c(countc[i]), .d(countd[i]), .sel(sel));
+      mux4 dut(.f(muxOut[i]), .a(counta[i]), .b(countb[i]), .c(countc[i]), .d(countd[i]), .sel(sel));
     end  
   endgenerate
   //mux4 duts[31:0](.f(muxOut), .a(counta), .b(countb), .c(countc), .d(countd), .sel(sel));

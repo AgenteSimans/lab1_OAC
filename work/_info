@@ -9,53 +9,80 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA_lite/20.1
-vmux
+vmux4
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1772909539
+Z1 !s110 1773017934
 !i10b 1
-!s100 7HILk?MmfC]>in=f9j7NV0
+!s100 D_mYJh^_jPhK2:dSo5]So0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I:87Z3_Dn76_XQ1M=Yb=SD1
+I]m[P^PMfm<E>^f@?GXAA80
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 dC:/Users/AgenteSimans/Desktop/lab1_OAC
-w1772909355
-8C:/Users/AgenteSimans/Desktop/lab1_OAC/mux.sv
-FC:/Users/AgenteSimans/Desktop/lab1_OAC/mux.sv
-!i122 2
-L0 1 12
+w1773017789
+8C:/Users/AgenteSimans/Desktop/lab1_OAC/mux4.sv
+FC:/Users/AgenteSimans/Desktop/lab1_OAC/mux4.sv
+!i122 5
+L0 1 19
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1772909539.000000
-!s107 C:/Users/AgenteSimans/Desktop/lab1_OAC/mux.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/AgenteSimans/Desktop/lab1_OAC/mux.sv|
+Z6 !s108 1773017934.000000
+!s107 C:/Users/AgenteSimans/Desktop/lab1_OAC/mux4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/AgenteSimans/Desktop/lab1_OAC/mux4.sv|
 !i113 1
 Z7 o-work work -sv
 Z8 tCvgOpt 0
-vtb_mux
+vtb_mux4
+!s105 tb_mux4_sv_unit
+DXx4 work 15 tb_mux4_sv_unit 0 22 iWKD>1Ui;1XHZQoVi4J_83
 R0
 R1
 !i10b 1
-!s100 jE?^jOl58hbAP?;@hle]U0
+!s100 T@F<N`81O@K7V[5[5T<:L1
 R2
-IT[g?A6KlhgjiNRm7]BRli2
+IePD58z:HhT]ElNQ_;O8Eh0
 R3
 S1
 R4
-w1772909433
-8C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux.sv
-FC:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux.sv
-!i122 3
-L0 3 13
+Z9 w1773017916
+Z10 8C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux4.sv
+Z11 FC:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux4.sv
+!i122 6
+L0 3 39
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux.sv|
+!s107 C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux4.sv|
+Z12 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux4.sv|
+!i113 1
+R7
+R8
+Xtb_mux4_sv_unit
+R0
+R1
+ViWKD>1Ui;1XHZQoVi4J_83
+r1
+!s85 0
+!i10b 1
+!s100 FTd5@7YV<VfKGFKMSchS73
+IiWKD>1Ui;1XHZQoVi4J_83
+!i103 1
+S1
+R4
+R9
+R10
+R11
+!i122 6
+L0 41 0
+R5
+31
+R6
+Z13 !s107 C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux4.sv|
+R12
 !i113 1
 R7
 R8

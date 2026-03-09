@@ -1,11 +1,11 @@
 module mux4
   (
     output logic f,
-    input  logic a, b, c, d
-    input  logic sel[1:0]
+    input  logic a, b, c, d,
+    input  logic [1:0] sel
   ); 
     
-    wire n_sel[1:0];
+    wire [1:0] n_sel;
     wire f0, f1, f2, f3;
 
     not n1(n_sel[1],sel[1]);

@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module tb_mux(count, muxOut);
+module tb_mux;
     logic [2:0] count;
     logic muxOut;
 
