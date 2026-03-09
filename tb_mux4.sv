@@ -19,17 +19,19 @@ module tb_mux4;
    initial begin
      $monitor($time,"a = %b | b = %b | c = %b | d = %b | sel = %b | muxOut = %b", counta, countb, countc, countd, sel, muxOut);
       
-      
+      //atribuicao de valores 
       counta = 32'b00000000000000000000000000000000;
       countb = 32'b11111111100111111111111111111111;
       countc = 32'b11111101111111111111111111110000;
       countd = 32'b11111111111111111111111111000000;
 
+      // chaveando seletor do mux
       sel = 2'b00; #10;
       sel = 2'b01; #10;
       sel = 2'b10; #10;
       sel = 2'b11; #10;
 
+      //testando mudanca de valor do 
       countd = 32'b11111111111111111111111111111111; #10;
       
       sel = 2'b00; #10;
