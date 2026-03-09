@@ -1,1 +1,18 @@
+C:/Users/AgenteSimans/Desktop/lab1_OAC/mux4.sv {1 {vlog -work work -sv -stats=none C:/Users/AgenteSimans/Desktop/lab1_OAC/mux4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4
 
+Top level modules:
+	mux4
+
+} {} {}} C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux4.sv {2 {vlog -work work -sv -stats=none C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_mux4
+** Warning: C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux4.sv(42): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: C:/Users/AgenteSimans/Desktop/lab1_OAC/tb_mux4.sv(43): (vlog-2284) Empty $unit scope found.
+-- Compiling package tb_mux4_sv_unit
+
+Top level modules:
+	tb_mux4
+
+} {} {}}

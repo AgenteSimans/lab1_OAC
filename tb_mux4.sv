@@ -1,18 +1,20 @@
 `timescale 1ns/1ps
 
 module tb_mux4;
-  logic [31:0] counta, countb, countc, countd;
-  logic [1:0] sel;
-  logic [31:0] muxOut;
-  
-  genvar i;
+  logic [31:0] counta, countb, countc, countd; //vetores de 32 para entrar nos mux4
+  logic [1:0] sel; // seletor dos mux
+  logic [31:0] muxOut; // saída dos mux
+/*
+  genvar i; // variável de geração para o loop
 
-  generate
-    for(i=0; i<32; i++) begin
+  generate // Gerar 32 instâncias do mux4 usando um loop
+    for(i=0; i<32; i++) begin : mux_vector 
       mux4 dut(.f(muxOut[i]), .a(counta[i]), .b(countb[i]), .c(countc[i]), .d(countd[i]), .sel(sel));
     end  
   endgenerate
-  //mux4 duts[31:0](.f(muxOut), .a(counta), .b(countb), .c(countc), .d(countd), .sel(sel));
+*/
+  // Instanciando 32 mux4 usando um vetor de modulos
+  mux4 duts[31:0](.f(muxOut), .a(counta), .b(countb), .c(countc), .d(countd), .sel(sel));
 
    initial begin
      $monitor($time,"a = %b | b = %b | c = %b | d = %b | sel = %b | muxOut = %b", counta, countb, countc, countd, sel, muxOut);
